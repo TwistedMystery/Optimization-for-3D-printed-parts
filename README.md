@@ -15,7 +15,10 @@ The project is divided into two primary test setups:
 
 ## 1. Tensile Testing
 
-![Tensile Specimen](https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture1.png)
+<div style="float: left; width: 300px; margin-right: 20px;">
+  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture1.png" alt="Tensile Testing Setup" style="width: 100%;"/>
+</div>
+
 
 In the tensile test, subsize specimens are printed and prepared under various configurations to examine how different infill patterns, densities, and orientations affect the mechanical properties of the printed material.
 
@@ -35,7 +38,9 @@ The goal is to compare the mechanical performance of the specimens based on:
 
 ## 2. Compressive Testing
 
-![Compressive Specimen](https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture2.png)
+<div style="float: left; width: 300px; margin-right: 20px;">
+  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture2.png" alt="Compressive Testing Setup" style="width: 100%;"/>
+</div>
 
 For compressive testing, two different cube sizes are prepared: **10 x 10 x 10 mm** and **30 x 30 x 30 mm**. Similar to the tensile test, variations in the number of walls, infill density, infill shape, and print type are used to understand the impact of these parameters under compression.
 

@@ -6,7 +6,7 @@ This project focuses on conducting tensile and compressive tests to evaluate the
 
 ## Overview
 
-The project is divided into two primary test setups:
+The project is divided into two test setups:
 
 1. **Tensile Testing**: Investigating how different printing configurations affect tensile strength and failure modes.
 2. **Compressive Testing**: Examining the impact of various factors on compressive strength and deformation.
@@ -19,23 +19,14 @@ The project is divided into two primary test setups:
   <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture1.png" alt="Tensile Testing Setup" style="width: 100%;"/>
 </div>
 
-
 In the tensile test, subsize specimens are printed and prepared under various configurations to examine how different infill patterns, densities, and orientations affect the mechanical properties of the printed material.
 
 ### Objective:
 The goal is to compare the mechanical performance of the specimens based on:
-- **Orientation**: Laid flat vs. standing.
-- **Number of Walls**: Varying the number of walls of the specimen.
-- **Infill Density**: Comparison between 10% and 20%.
-- **Infill Shape**: Hexagonal vs. Grid.
-
-### Factors to Study:
-- **Tensile strength** variation between flat and standing specimens.
-- **Impact of infill density** (20% vs. 10%) on overall tensile behavior.
-- **Effects of different infill shapes** (Hexagonal vs. Grid) on specimen rigidity and failure mode.
-
+- **Wall Line Count**: Varying the number of walls of the specimen.
+- **Infill Density**: Variying percentage of Infill density.
+- **Infill Shape**: All 14 different infill shapes.
 ---
-
 ## 2. Compressive Testing
 
 <div style="float: left; width: 300px; margin-right: 20px;">
@@ -45,13 +36,9 @@ The goal is to compare the mechanical performance of the specimens based on:
 For compressive testing, two different cube sizes are prepared: **10 x 10 x 10 mm** and **30 x 30 x 30 mm**. Similar to the tensile test, variations in the number of walls, infill density, infill shape, and print type are used to understand the impact of these parameters under compression.
 
 ### Objective:
-The setup is designed to observe how cube size, infill density, infill shape, and print orientation influence compressive strength.
-
-### Factors to Study:
-- **Infill shape** (Hexagonal vs. Grid) and its relation to compressive failure patterns.
-- **Effect of specimen size** on compressive strength.
-- **Comparison of standing and laid-flat orientations** under compression to analyze stability.
-
----
+The goal is to compare the mechanical performance of the specimens based on:
+- **Wall Line Count**: Varying the number of walls of the specimen.
+- **Infill Density**: Variying percentage of Infill density.
+- **Infill Shape**: All 14 different infill shapes.
 
 This README serves as a preparation guide and provides an overview of the setup for tensile and compressive testing. Results from these tests will help in identifying the optimal printing configurations for improved mechanical performance.

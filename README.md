@@ -4,6 +4,8 @@ A Consecutive Analysis on Strength of 3D Printed Parts based on the infill perce
 
 This project focuses on conducting tensile and compressive tests to evaluate the mechanical properties of 3D-printed specimens. The objective is to gain insight into potential issues and variations in material performance based on different configurations of infill patterns, densities, orientations, and specimen size.
 
+**Data Collection to be done in this excel sheet**
+https://kluniversityin-my.sharepoint.com/:x:/g/personal/2100070036_kluniversity_in/EQ-lFUcfcStDj6tSOiSIfe4BCcFKMRETumc8dLTqK5-3vw?e=WKx98z
 ## Overview
 
 The project is divided into two test setups:

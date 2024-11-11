@@ -45,3 +45,20 @@ The goal is to compare the mechanical performance of the specimens based on:
 
                      
 This README serves as a preparation guide and provides an overview of the setup for tensile and compressive testing. Results from these tests will help in identifying the optimal printing configurations for improved mechanical performance.
+
+
+# Optimization for 3D Printed Parts
+
+This project includes images of optimized 3D-printed parts, showcasing various views and test configurations.
+
+## Images
+
+### Crush Piece 1
+<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Crush%20Piece%201.jpg" width="300" alt="Crush Piece 1">
+
+### Stretched Piece 1 (Front View)
+<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20front%20view.jpg" width="300" alt="Stretched Piece 1 front view">
+
+### Stretched Piece 1 (Side View)
+<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20side%20view.jpg" width="300" alt="Stretched Piece 1 side view">
+

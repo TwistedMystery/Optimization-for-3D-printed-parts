@@ -62,3 +62,17 @@ This project includes images of optimized 3D-printed parts, showcasing various v
 ### Stretched Piece 1 (Side View)
 <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20side%20view.jpg" width="300" alt="Stretched Piece 1 side view">
 
+
+## Project Task Table
+
+| Task                        | Description                                                                                                   | Assigned To                | Status       |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------|--------------|
+| **3D Printing**             | 3D print the following specimens:                                                                            | Gopinath, Nakka Karthik    | Not Started  |
+|                             | - 3 sets of tensile testing specimens for varying infill density                                             |                            |              |
+|                             | - 3 sets of compressive testing specimens for varying infill density                                         |                            |              |
+|                             | - 3 sets of tensile testing specimens for varying wall line count                                            |                            |              |
+|                             | - 3 sets of compressive testing specimens for varying wall line count                                        |                            |              |
+| **Data Entry**              | Add the different weights of the specimens and create an online Excel sheet to track progress.               | Jwalitha, Sanjay           | Not Started  |
+| **Learning Optimization**   | Learn about optimization techniques and their applications and submit a consise report on the same.          | All Members                | Not Started  |
+
+

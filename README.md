@@ -1,33 +1,46 @@
-# Optimization-for-3D-printed-parts
-A Consecutive Analysis on Strength of 3D Printed Parts based on the infill percentage, Infill Shape, Wall thickness, and other factors and optimization for these parts. 
-# Tensile and Compressive Testing Procedures
-This project focuses on conducting tensile and compressive tests to evaluate the mechanical properties of 3D-printed specimens. The objective is to gain insight into potential issues and variations in material performance based on different configurations of infill patterns, densities, orientations, and specimen size.
+# Optimization for 3D Printed Parts
+A Consecutive Analysis on Strength of 3D Printed Parts Based on Infill Percentage, Infill Shape, Wall Thickness, and Other Factors, and Optimization for These Parts.
 
-**Data Collection to be done in this excel sheet**
-https://kluniversityin-my.sharepoint.com/:x:/g/personal/2100070036_kluniversity_in/EQ-lFUcfcStDj6tSOiSIfe4BCcFKMRETumc8dLTqK5-3vw?e=WKx98z
+---
+
+## Tensile and Compressive Testing Procedures
+This project focuses on conducting **tensile** and **compressive tests** to evaluate the mechanical properties of 3D-printed specimens. The goal is to gain insight into potential issues and material performance variations based on different configurations of **infill patterns**, **densities**, **orientations**, and **specimen size**.
+
+---
+
 ## Overview
+The project aims to analyze the effects of **3D printing parameters** on the mechanical properties of 3D-printed parts using two test setups:
+- **Tensile Testing**
+- **Compressive Testing**
 
-The project is divided into two test setups:
-
-1. **Tensile Testing**: Investigating how different printing configurations affect tensile strength and failure modes.
-2. **Compressive Testing**: Examining the impact of various factors on compressive strength and deformation.
 ---
+
+### Data Collection
+All collected data should be added to this Excel sheet:  
+[**Data Collection Sheet**](https://kluniversityin-my.sharepoint.com/:x:/g/personal/2100070036_kluniversity_in/EQ-lFUcfcStDj6tSOiSIfe4BCcFKMRETumc8dLTqK5-3vw?e=WKx98z)
+
+---
+
 ## 1. Tensile Testing
+![Tensile Testing Setup](https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture1.png)
+*Objective*: Investigate the effect of **infill patterns**, **densities**, and **orientations** on tensile strength and failure modes.  
 
-<div style="float: left; width: 300px; margin-right: 20px;">
-  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture1.png" alt="Tensile Testing Setup" style="width: 100%;"/>
-</div>
-
-In the tensile test, subsize specimens are printed and prepared under various configurations to examine how different infill patterns, densities, and orientations affect the mechanical properties of the printed material.
+*Specimens*:  
+- Subsize specimens printed under varying configurations.
 
 ---
+
 ## 2. Compressive Testing
+![Compressive Testing Setup](https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture2.png)
+*Objective*: Examine the effect of **wall line count**, **infill density**, **infill shape**, and **print type** on compressive strength.  
 
-<div style="float: left; width: 300px; margin-right: 20px;">
-  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Picture2.png" alt="Compressive Testing Setup" style="width: 100%;"/>
-</div>
+*Specimens*:  
+- Cube sizes: **10 x 10 x 10 mm** and **30 x 30 x 30 mm**  
+- Configurations: Variations in **wall count**, **infill density**, and **shape**.
 
-For compressive testing, two different cube sizes are prepared: **10 x 10 x 10 mm** and **30 x 30 x 30 mm**. Similar to the tensile test, variations in the number of walls, infill density, infill shape, and print type are used to understand the impact of these parameters under compression.
+---
+
+
                      
 ## Optimization for 3D Printed Parts
 This project includes images of optimized 3D-printed parts, showcasing various views and test configurations.

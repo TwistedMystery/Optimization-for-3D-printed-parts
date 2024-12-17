@@ -29,15 +29,17 @@ In the tensile test, subsize specimens are printed and prepared under various co
 
 For compressive testing, two different cube sizes are prepared: **10 x 10 x 10 mm** and **30 x 30 x 30 mm**. Similar to the tensile test, variations in the number of walls, infill density, infill shape, and print type are used to understand the impact of these parameters under compression.
                      
-# Optimization for 3D Printed Parts
+## Optimization for 3D Printed Parts
 This project includes images of optimized 3D-printed parts, showcasing various views and test configurations.
+
 ## Images
-### Crush Piece 1
-<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Crush%20Piece%201.jpg" width="300" alt="Crush Piece 1">
-### Stretched Piece 1 (Front View)
-<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20front%20view.jpg" width="300" alt="Stretched Piece 1 front view">
-### Stretched Piece 1 (Side View)
-<img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20side%20view.jpg" width="300" alt="Stretched Piece 1 side view">
+
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Crush%20Piece%201.jpg" width="150" alt="Crush Piece 1">
+  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20front%20view.jpg" width="150" alt="Stretched Piece 1 Front View">
+  <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20side%20view.jpg" width="150" alt="Stretched Piece 1 Side View">
+</div>
+
 
 
 ## Project Task Table

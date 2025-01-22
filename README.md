@@ -40,23 +40,34 @@ All collected data should be added to this Excel sheet:
 
 ---
 
-
-                     
 ## Optimization for 3D Printed Parts
 This project includes images of optimized 3D-printed parts, showcasing various views and test configurations.
 
-## Images
-
+### Images
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Crush%20Piece%201.jpg" width="150" alt="Crush Piece 1">
   <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20front%20view.jpg" width="150" alt="Stretched Piece 1 Front View">
   <img src="https://github.com/TwistedMystery/Optimization-for-3D-printed-parts-/blob/main/Stretched%20Piece%201%20side%20view.jpg" width="150" alt="Stretched Piece 1 Side View">
 </div>
 
+---
 
+## Introduction of Statistical Tools (JASP and ANOVA)
+To further enhance the analysis of the data collected, we will use **JASP**, a free and open-source statistical software, to perform an **ANOVA (Analysis of Variance)**. This method will help:
+- **Identify significant factors** affecting the strength and performance of 3D-printed parts.
+- Compare variations in strength based on parameters such as infill density, wall line count, and infill shape.
+
+### Planned Steps with JASP
+1. **Data Normalization**: Prepare the collected data for statistical analysis.
+2. **ANOVA Analysis**: Perform ANOVA to understand the impact of different parameters on tensile and compressive strength.
+3. **Visualization**: Use JASP to generate graphs and charts for clear visualization of results.
+4. **Optimization**: Leverage insights from ANOVA to recommend optimal configurations for 3D-printed parts.
+
+This addition will provide a robust statistical foundation to validate experimental findings and refine optimization techniques.
+
+---
 
 ## Project Task Table
-
 | Task                        | Description                                                                                                   | Assigned To                | Status       |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------|--------------|
 | **3D Printing**             | 3D print the following specimens:                                                                            | Gopinath, Nakka Karthik    | Not Started  |
@@ -65,10 +76,6 @@ This project includes images of optimized 3D-printed parts, showcasing various v
 |                             | - 3 sets of tensile testing specimens for varying wall line count                                            |                            |              |
 |                             | - 3 sets of compressive testing specimens for varying wall line count                                        |                            |              |
 | **Data Entry**              | Add the different weights of the specimens and create an online Excel sheet to track progress.               | Jwalitha, Sanjay           | Not Started  |
-| **Learning Optimization**   | Learn about optimization techniques and their applications and submit a consise report on the same.          | All Members                | Not Started  |
+| **Learning Optimization**   | Learn about optimization techniques and their applications and submit a concise report on the same.          | All Members                | Not Started  |
 
-This README serves as a preparation guide and provides an overview of the setup for tensile and compressive testing. Results from these tests will help in identifying the optimal printing configurations for improved mechanical performance.
-
-
-
-
+This README serves as a comprehensive guide and provides an overview of the setup, statistical analysis, and optimization techniques for tensile and compressive testing. Results from these analyses will guide the selection of optimal printing configurations for enhanced mechanical performance.

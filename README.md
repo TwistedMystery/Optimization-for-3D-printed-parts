@@ -1,4 +1,4 @@
-# Optimization for 3D Printed Parts
+# Optimization for 3D Print Parameters
 A Consecutive Analysis on Strength of 3D Printed Parts Based on Infill Percentage, Infill Shape, Wall Thickness, and Other Factors, and Optimization for These Parts.
 
 ---
@@ -57,26 +57,15 @@ To further enhance the analysis of the data collected, we will use **JASP**, a f
 - **Identify significant factors** affecting the strength and performance of 3D-printed parts.
 - Compare variations in strength based on parameters such as infill density, wall line count, and infill shape.
 
-### Planned Steps with JASP
-1. **Data Normalization**: Prepare the collected data for statistical analysis.
-2. **ANOVA Analysis**: Perform ANOVA to understand the impact of different parameters on tensile and compressive strength.
-3. **Visualization**: Use JASP to generate graphs and charts for clear visualization of results.
-4. **Optimization**: Leverage insights from ANOVA to recommend optimal configurations for 3D-printed parts.
+### New Plan Dated 05-04-2025
+To gain critical information and get valid results, the approach to the optimization of 3D print parameters will be
+- Design of Experiments to reduce the wastage of marterial that is being tested via incorporating 4 different parameters with 4 variations each the table for the design of experiments is given below.
+- Testing the 16 Experiments and retesting based on test data.
+- Parento Analysis to determine how different factors/parameters affect the ultimate tensile strength.
+- Utilizing RSM to optimize the parameters and final testing to validate the results.
 
 This addition will provide a robust statistical foundation to validate experimental findings and refine optimization techniques.
-
 ---
-
-## Project Task Table
-| Task                        | Description                                                                                                   | Assigned To                | Status       |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------|--------------|
-| **3D Printing**             | 3D print the following specimens:                                                                            | Gopinath, Nakka Karthik    | Not Started  |
-|                             | - 3 sets of tensile testing specimens for varying infill density                                             |                            |              |
-|                             | - 3 sets of compressive testing specimens for varying infill density                                         |                            |              |
-|                             | - 3 sets of tensile testing specimens for varying wall line count                                            |                            |              |
-|                             | - 3 sets of compressive testing specimens for varying wall line count                                        |                            |              |
-| **Data Entry**              | Add the different weights of the specimens and create an online Excel sheet to track progress.               | Jwalitha, Sanjay           | Not Started  |
-| **Learning Optimization**   | Learn about optimization techniques and their applications and submit a concise report on the same.          | All Members                | Not Started  |
 
 ## 📊 Experimental Setup & Parameters
 

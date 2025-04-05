@@ -78,4 +78,44 @@ This addition will provide a robust statistical foundation to validate experimen
 | **Data Entry**              | Add the different weights of the specimens and create an online Excel sheet to track progress.               | Jwalitha, Sanjay           | Not Started  |
 | **Learning Optimization**   | Learn about optimization techniques and their applications and submit a concise report on the same.          | All Members                | Not Started  |
 
+## 📊 Experimental Setup & Parameters
+
+We aim to evaluate how different print parameters affect mold quality and casting ease. Parameters such as infill density, wall line count, infill shape, and layer height are varied systematically.
+
+### Experiment Parameters Table
+
+| Run | Infill Density (%) | Wall Line Count | Infill Shape | Layer Height (mm) | Printed | Time   | Weight (g) | Coil Length (m) | Tested |
+|-----|--------------------|------------------|--------------|-------------------|---------|--------|------------|------------------|--------|
+| 1   | 10                 | 1                | Grid         | 0.10              | N       | 1h 17m | 5g         | 1.75m            | N      |
+| 2   | 10                 | 3                | Gyroid       | 0.15              | N       | 1h 9m  | 7g         | 2.27m            | N      |
+| 3   | 10                 | 5                | Tri-Hexagon  | 0.20              | N       | 1h 5m  | 8g         | 2.84m            | N      |
+| 4   | 10                 | 7                | Cubic        | 0.25              | N       | 1h 2m  | 10g        | 3.33m            | N      |
+| 5   | 30                 | 1                | Gyroid       | 0.20              | N       | 1h 8m  | 8g         | 2.84m            | N      |
+| 6   | 30                 | 3                | Grid         | 0.25              | N       | 1h 1m  | 10g        | 3.31m            | N      |
+| 7   | 30                 | 5                | Cubic        | 0.10              | N       | 1h 46m | 8g         | 2.60m            | N      |
+| 8   | 30                 | 7                | Tri-Hexagon  | 0.15              | N       | 1h 23m | 9g         | 2.92m            | N      |
+| 9   | 50                 | 1                | Tri-Hexagon  | 0.25              | N       | 1h 1m  | 10g        | 3.44m            | N      |
+| 10  | 50                 | 3                | Cubic        | 0.20              | N       | 1h 9m  | 10g        | 3.22m            | N      |
+| 11  | 50                 | 5                | Grid         | 0.15              | N       | 1h 24m | 9g         | 3.07m            | N      |
+| 12  | 50                 | 7                | Gyroid       | 0.10              | N       | 2h 28m | 9g         | 3.08m            | N      |
+| 13  | 70                 | 1                | Cubic        | 0.15              | N       | 1h 23m | 10g        | 3.24m            | N      |
+| 14  | 70                 | 3                | Tri-Hexagon  | 0.10              | N       | 1h 59m | 10g        | 3.25m            | N      |
+| 15  | 70                 | 5                | Gyroid       | 0.25              | N       | 1h 13m | 11g        | 3.70m            | N      |
+| 16  | 70                 | 7                | Grid         | 0.20              | N       | 1h 16m | 11g        | 3.57m            | N      |
+
+---
+
+## 💾 SD Card Allocation
+
+To manage distributed 3D printing, jobs were allocated across three SD cards:
+
+| SD Card | Assigned Prints                  | Total Coil Length (m) |
+|---------|----------------------------------|------------------------|
+| Card 1  | E4, E6, E9, E10, E13, E16         | **20.11m**             |
+| Card 2  | E1, E2, E3, E7, E8                | **12.38m**             |
+| Card 3  | E5, E11, E12, E14, E15            | **15.94m**             |
+
+---
+
 This README serves as a comprehensive guide and provides an overview of the setup, statistical analysis, and optimization techniques for tensile and compressive testing. Results from these analyses will guide the selection of optimal printing configurations for enhanced mechanical performance.
+

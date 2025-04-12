@@ -161,12 +161,7 @@ RSM allows us to:
 
 3. **Build the Response Model 📊**  
    - Fit a second-order polynomial regression model:
-     \[
-     Y = \beta_0 + \sum \beta_i X_i + \sum \beta_{ii} X_i^2 + \sum \beta_{ij} X_i X_j
-     \]
-   - \( Y \): Response (e.g., tensile strength),  
-     \( X_i \): Parameters (like infill, wall count),  
-     \( \beta \): Coefficients to be estimated.
+    <pre><code>\\[ Y = \\beta_0 + \\sum \\beta_i X_i + \\sum \\beta_{ii} X_i^2 + \\sum \\beta_{ij} X_i X_j \\] </code></pre>
 
 4. **Generate Plots & Analyze**  
    - Create **3D surface plots** and **contour plots** to observe how the response varies.

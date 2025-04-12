@@ -161,8 +161,20 @@ RSM allows us to:
 
 3. **Build the Response Model 📊**  
    - Fit a second-order polynomial regression model:
-    <pre><code>\\[ Y = \\beta_0 + \\sum \\beta_i X_i + \\sum \\beta_{ii} X_i^2 + \\sum \\beta_{ij} X_i X_j \\] </code></pre>
+   - **Equation:**
 
+Y = β₀ + β₁X₁ + β₂X₂ + β₃X₃ + β₁₁X₁² + β₂₂X₂² + β₃₃X₃² + β₁₂X₁X₂ + β₁₃X₁X₃ + β₂₃X₂X₃
+
+**What it means:**
+
+- **Y** = Output response (e.g., tensile strength)
+- **X₁, X₂, X₃** = Input parameters (e.g., Infill Density, Wall Line Count, Layer Height)
+- **β₀** = Constant term (intercept)
+- **β₁, β₂, β₃** = Linear coefficients
+- **β₁₁, β₂₂, β₃₃** = Quadratic coefficients
+- **β₁₂, β₁₃, β₂₃** = Interaction coefficients between parameters
+
+📌 This equation helps model the system behavior and predict the optimal configuration for maximum strength and minimal material waste.
 4. **Generate Plots & Analyze**  
    - Create **3D surface plots** and **contour plots** to observe how the response varies.
    - Identify ridges, peaks, and valleys in the surface—these represent optimal or suboptimal zones.

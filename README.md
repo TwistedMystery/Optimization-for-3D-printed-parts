@@ -105,6 +105,78 @@ To manage distributed 3D printing, jobs were allocated across three SD cards:
 | Card 3  | E5, E11, E12, E14, E15            | **15.94m**             |
 
 ---
+## 📊 Statistical Analysis & Optimization
+
+To enhance the reliability of our data and streamline optimization, we have integrated **Pareto Analysis** and **Response Surface Methodology (RSM)** into the experimental workflow.
+
+---
+
+### 🧩 Pareto Analysis – Identifying Critical Parameters
+
+**Objective:**  
+To prioritize which parameters most significantly impact the strength and performance of 3D-printed parts.
+
+**🔧 How It's Done:**
+
+1. **Data Collection**  
+   - Aggregate strength values (e.g., tensile strength) from all 16 DOE test runs.
+   - Structure the dataset by parameter variations: Infill Density, Wall Line Count, Infill Shape, and Layer Height.
+
+2. **Effect Size Calculation**  
+   - Determine each parameter’s contribution to the output response (e.g., UTS - Ultimate Tensile Strength).
+   - Use software (Excel, JASP, etc.) to calculate contribution percentages.
+
+3. **Build Pareto Chart 📉**  
+   - Plot parameter impact in descending order.
+   - Identify the “vital few” that contribute to ~80% of the outcome variation.
+   - This helps focus on optimizing the most influential parameters.
+
+> 🎯 **Outcome:** A prioritized list of parameters for optimization, saving time and resources in subsequent experiments.
+
+---
+
+### 🔬 Response Surface Methodology (RSM) – Fine-Tuning for Optimization
+
+**Objective:**  
+To model the relationship between key parameters and tensile strength,
 
 This README serves as a comprehensive guide and provides an overview of the setup, statistical analysis, and optimization techniques for tensile and compressive testing. Results from these analyses will guide the selection of optimal printing configurations for enhanced mechanical performance.
 
+RSM allows us to:
+- Explore **nonlinear relationships** between parameters and outcomes.
+- **Visualize** parameter interactions using 3D plots.
+- Predict **optimal combinations** for maximum performance.
+
+---
+
+**🛠️ Steps for Implementing RSM:**
+
+1. **Select Significant Parameters**  
+   - Based on Pareto Analysis, choose the top 2–3 parameters that affect strength the most.
+   - Define their practical ranges (e.g., Infill Density: 10% to 70%).
+
+2. **Design the Experiment Grid**  
+   - Use **Central Composite Design (CCD)** or **Box-Behnken Design** to structure new test runs.
+   - These designs reduce the number of required tests while capturing interaction effects.
+
+3. **Build the Response Model 📊**  
+   - Fit a second-order polynomial regression model:
+     \[
+     Y = \beta_0 + \sum \beta_i X_i + \sum \beta_{ii} X_i^2 + \sum \beta_{ij} X_i X_j
+     \]
+   - \( Y \): Response (e.g., tensile strength),  
+     \( X_i \): Parameters (like infill, wall count),  
+     \( \beta \): Coefficients to be estimated.
+
+4. **Generate Plots & Analyze**  
+   - Create **3D surface plots** and **contour plots** to observe how the response varies.
+   - Identify ridges, peaks, and valleys in the surface—these represent optimal or suboptimal zones.
+
+5. **Optimize & Validate 🚀**  
+   - Use the model to predict **optimal printing settings**.
+   - Print and test new specimens using the predicted configuration.
+   - Validate whether the optimized print shows improved mechanical performance.
+
+> 🧪 **Result:** A statistically validated configuration that boosts print strength while minimizing material waste and experimental trials.
+
+---
